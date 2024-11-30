@@ -26,10 +26,10 @@ def extract_text(url):
         return None
 
 
-subscription_key = "B4sJ8RK548Uat5zx80KRALA6d8oUlg6gUpAonDwIqhrKrS0S8vmfJQQJ99AKACYeBjFXJ3w3AAAbACOGhPaA"
-endpoint = 'https://api.cognitive.microsofttranslator.com/'
-location = 'eastus'
-to_language = 'pt-br'
+subscription_key = "your_subscription_key"
+endpoint = 'your_endpoint'
+location = 'your_location'
+to_language = 'your_to_language'
 
 
 def translator(text, target_language):
